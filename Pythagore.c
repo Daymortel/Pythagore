@@ -4,17 +4,17 @@
 int main(void)
 {
     // on récupère la valeur du côté ab
-    float ab = printf("valeur ab (en cm) : ");
+    float ab = printf("Quelle est la longueur de AB (en cm) : ");
     scanf("%f", &ab);
 
     // on récupère la valeur du côté ac
-    float ac = printf("valeur ac (en cm) : ");
-    scanf("%f", &ac);
+    float bc = printf("Quelle est la longueur de BC (en cm) : ");
+    scanf("%f", &bc);
 
     // on calcule la valeur de l'hypoténuse
-    // bc² = ab² + ac²
-    float bc = pow(ab, 2) + pow(ac, 2);
-    printf("l'hypoténuse est de %.2f cm\n", sqrt(bc));
+    // ac² = ab² + bc²
+    float ac = pow(ab, 2) + pow(bc, 2);
+    printf("La longueur de l'hypoténuse est de %.2f cm\n", sqrt(ac));
 
     system("PAUSE");
 }
