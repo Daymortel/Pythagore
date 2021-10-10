@@ -15,4 +15,6 @@ int main(void)
     // bc² = ab² + ac²
     float bc = pow(ab, 2) + pow(ac, 2);
     printf("l'hypoténuse est de %.2f cm\n", sqrt(bc));
+
+    system("PAUSE");
 }
