@@ -16,5 +16,5 @@ int main(void)
     float ac = pow(ab, 2) + pow(bc, 2);
     printf("La longueur de l'hypoténuse est de %.2f cm\n", sqrt(ac));
 
-    system("PAUSE");
+    //system("PAUSE");
 }
